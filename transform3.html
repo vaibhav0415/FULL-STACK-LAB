@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid red;
+          height: 90vh;
+        }
+        .box{
+            border: 2px solid green;
+            width: 100px;
+            height: 100px;
+            margin: 100px;
+            /* transition: all;
+            transition-duration: 4s; */
+            transition: transform, background-color;
+                
+        }
+        .box:hover{
+            background-color: red;
+            /* transform: translate(200px,101px);  position chanfe*/
+            /* transform: scaleX(2); */
+            /* transform: scaleY(2); */
+            transform: scaleX(-50deg);
+            transform: skewX();
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="box">
+
+       </div>
+    </div>
+</body>
+</html>

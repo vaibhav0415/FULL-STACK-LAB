@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* universal selector */
+            margin: 0;
+            padding: 0;
+            box-sizing: ;
+        }
+        .container{
+            border: 2px solid red;
+            height: 30vh;
+            width: 30vw;
+            border-bottom-left-radius:40px ;
+            border-bottom-color:blue ;
+            padding: 10px;
+
+            
+        }
+        .container1{
+            border: 2px solid green;
+            height: 30vh;
+            width: 30vw;
+            /* margin: 50px; */
+            /* will give it same margin in all direction*/
+            margin: 50px 40px 30px 20px;
+        }
+        .container2{
+                   box-sizing: content-box;
+                   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, perspiciatis? Libero animi modi illum unde officia! Commodi facilis quae voluptates tempore, quaerat dolor!</div>
+
+    <div class="container1"></div>
+    <div class="container2"></div>
+</body>
+</html>

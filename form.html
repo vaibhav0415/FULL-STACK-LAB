@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            margin-inline: 40px;
+        }
+        div {
+            margin-bottom: 15px; /* Add gap between divs */
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="backend.js">
+        <fieldset >
+            <legend>personal details</legend>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name here:" id="name">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" placeholder="Enter your age" id="age">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email" id="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password">
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file">
+        </div>
+        <div>
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" id="checkbox">
+        </div>
+      
+        <div>
+            <label for="radio">Radio</label>
+            <input type="radio" id="radio">
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="time">Time</label>
+            <input type="time" id="time">
+        </div>
+        <div>
+                <label>Gender</label>
+                <input type="radio" name="abcde" >Male
+                <input type="radio" name="abcde">Female
+                <input type="radio" name="abcde">Both
+        </div>
+        <br>
+        <div>
+            <label>Movies</label>
+            <select>
+            <option value="">KGF</option>
+            <option value="">Alibaba</option>
+            <option value="">taaare zammenn par</option>
+            <option value="">maastizaade</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+    </fieldset>
+    </form>
+</body>
+</html>

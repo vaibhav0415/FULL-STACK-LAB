@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        div {
+            width: 100px; 
+            height: 100px; 
+            background-color: antiquewhite;
+            margin: 100px; 
+        }
+        .first:hover{
+            transform: rotate(20deg) translate(50px,50px);
+            display: flex;
+            align-items: center;
+            background-color: cyan;            
+        }
+        .second:hover{
+            transform: scale(1.6);
+            background-color: cadetblue;
+        }
+        .third:hover{
+            transform: skew(20deg);
+            background-color: greenyellow;
+        }
+        .forth:hover{
+            transform: translate(50px,50px);
+            background-color: indianred;
+        }
+        .fifth:hover{
+            transform: rotate3d(0, 1,0 , 89deg);
+            background-color: pink;
+        }
+        h2:hover{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="forth"></div>
+    <div class="fifth"></div>
+    <h2 id="h2">My name is kumar</h2>
+</body>
+</html>
