@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen bg-gray-100">
+    <!-- navbar -->
+    <div
+      class="flex justify-between items-center px-[150px] h-[130px] bg-white text-xl fixed shadow-lg w-screen z-10"
+    >
+      <div>
+        <div class="text-5xl font-bold">Vigneto</div>
+        <div class="text-xs font-bold pt-2 pl-2">VINEYARD & ESTATE WINERY</div>
+      </div>
+      <div class="flex gap-12">
+        <div class="flex gap-8">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <!-- <div class="flex gap-8 text-yellow-500">
+          <a href="#" class="text-yellow-500 hover:text-yellow-700"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="w-6 h-6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.284h-3.128v-3.622h3.128v-2.671c0-3.097 1.891-4.782 4.653-4.782 1.324 0 2.462.099 2.794.143v3.241l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.305h3.59l-.467 3.622h-3.123v9.284h6.128c.731 0 1.324-.593 1.324-1.324v-21.35c0-.732-.593-1.325-1.324-1.325z"
+              /></svg
+          ></a>
+          <a href="#" class="text-yellow-500 hover:text-yellow-700"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="w-6 h-6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M24 4.557a9.94 9.94 0 01-2.828.775 4.92 4.92 0 002.165-2.723c-.951.564-2.005.975-3.127 1.195a4.908 4.908 0 00-8.361 4.468 13.913 13.913 0 01-10.103-5.13c-.945 1.623-.465 3.737 1.18 4.805a4.904 4.904 0 01-2.23-.617v.061c0 2.324 1.654 4.261 3.848 4.701a4.936 4.936 0 01-2.224.085c.625 1.953 2.443 3.376 4.597 3.415a9.87 9.87 0 01-7.289 2.032c2.179 1.395 4.768 2.21 7.557 2.21 9.054 0 14-7.496 14-13.986 0-.214-.004-.426-.014-.637a9.936 9.936 0 002.458-2.548z"
+              /></svg
+          ></a>
+          <a href="#" class="text-yellow-500 hover:text-yellow-700"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="w-6 h-6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2.163c-5.522 0-10 4.478-10 10 0 4.991 3.657 9.128 8.438 9.878v-6.988h-2.54v-2.727h2.54v-2.084c0-2.508 1.492-3.89 3.773-3.89 1.094 0 2.24.194 2.24.194v2.459h-1.262c-1.244 0-1.632.773-1.632 1.562v1.859h2.773l-.443 2.727h-2.33v6.988c4.781-.75 8.438-4.888 8.438-9.878 0-5.522-4.478-10-10-10z"
+              /></svg
+          ></a>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- home -->
+    <header id="home" class="h-screen relative pt-[30px]">
+      <img
+        class="absolute w-full h-full object-cover"
+        src="https://images8.alphacoders.com/424/424604.jpg"
+        alt=""
+      />
+      <div
+        class="absolute flex gap-3 flex flex-col items-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl text-white"
+      >
+        <div
+          class="text-center w-11/12 font-semibold p-4 flex justify-center items-center"
+        >
+          <p>
+            Finding <span class="text-yellow-500">creative</span> approaches to
+            help your business grow
+          </p>
+        </div>
+
+        <div class="flex gap-[70px] text-xl">
+          <!-- <button
+            class="bg-yellow-500 hover:bg-white hover:text-black rounded-full px-6 p-2"
+          >
+            Get in touch
+          </button>
+          <button
+            class="bg-white hover:bg-yellow-500 hover:text-white rounded-full text-black px-6 p-2"
+          >
+            Meet the team
+          </button> -->
+        </div>
+      </div>
+    </header>
+
+    <!-- services -->
+    <div
+      id="services"
+      class="flex justify-center items-center h-screen gap-[200px] mt-24 mx-[130px]"
+    >
+      <div class="text-5xl flex flex-col items-left gap-4 w-[500px]">
+        <div>
+          <b>Set the bar </b> in <br />
+          your industry
+        </div>
+        <hr class="w-1/2 bg-yellow-500 h-[3px]" />
+        <div class="text-sm">
+          Click once to style, move and resize. Click twice to edit text. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+        <button
+          class="text-base p-2 px-4 rounded-full hover:bg-yellow-500 hover:text-white border border-yellow-500 border-2 w-1/2"
+        >
+          See Our services
+        </button>
+      </div>
+      <div class="shadow-lg">
+        <img
+          class="w-[450px] h-[600px] rounded-lg"
+          src="https://images.pexels.com/photos/7993901/pexels-photo-7993901.jpeg?cs=srgb&dl=pexels-thirdman-7993901.jpg&fm=jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!-- img screen -->
+    <div class="h-5/6 mt-16 relative">
+      <img
+        class="absolute w-[1440px] h-full"
+        src="https://imageio.forbes.com/specials-images/imageserve/60e05ab2396be666929735e5/Multiracial-young-happy-people-sharing-ideas-while-coffee-break-showing-importance-of/960x0.jpg?format=jpg&width=960"
+        alt=""
+      />
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div
+        class="absolute flex gap-3 flex flex-col items-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl text-white"
+      >
+        <div
+          class="text-center w-full font-semibold p-4 flex justify-center items-center flex-col"
+        >
+          <p class="w-full">
+            We make great things<span class="text-yellow-500"> happens.</span>
+          </p>
+          <button
+            class="bg-yellow-500 hover:bg-white hover:text-black rounded-full px-5 p-2 mt-4"
+          >
+            Get in touch
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-between items-center p-8 h-[550px] mt-1">
+      <!-- Left section: Title -->
+      <div class="w-1/2">
+        <p class="text-yellow-600 uppercase text-sm font-bold mb-2">About</p>
+        <h1 class="text-4xl font-bold leading-tight mb-4">
+          Adventure Is The Best Way To Learn Something New
+        </h1>
+      </div>
+
+      <!-- Right section: Text Box -->
+      <div class="w-1/2 space-y-4">
+        <p class="text-gray-600">
+          I’m a text box. Double click me to edit the text or to change the way
+          I look. You can change the font, size, color, and so much more. For
+          advanced styling options, click on "more" located on the right-hand
+          side of the text editing menu.
+        </p>
+        <p class="text-gray-600">
+          Click once to move me or to bring up the resize handles and Squeegee
+          Tool. The resize handles allow you to make me any size you want.
+        </p>
+        <p class="text-gray-600">
+          I’m a text box. Double click me to edit the text or to change the way
+          I look. You can change the font, size, color, and so much more.
+        </p>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <footer class="bg-yellow-500 py-8 pb-0">
+      <div class="container mx-auto text-center">
+        <!-- Logos section -->
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+          <div class="flex justify-center">
+            <img
+              src="https://i0.wp.com/ancb.net/wp-content/uploads/2013/09/CNW-logo.jpg"
+              alt="CNW Logo"
+              class="h-12"
+            />
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpjA54luld4Bp8EAVDBFDrnXz7RCYGfqaZMQ&s"
+              alt="Banks Logo"
+              class="h-12"
+            />
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="https://www.pngitem.com/pimgs/m/181-1819943_duke-logo-png-circle-transparent-png.png"
+              alt="Duke Logo"
+              class="h-12"
+            />
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQdZVSX923RwAPiojY8Gw4zwKAXamPmYo9i87quRcFL-qiwyl6OHVMQL1I4PakEx36iZ0&usqp=CAU"
+              alt="Atelier Logo"
+              class="h-12"
+            />
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="https://logowik.com/content/uploads/images/acme1361.logowik.com.webp"
+              alt="ACME Logo"
+              class="h-12"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media & Navigation -->
+      <div class="bg-gray-100 py-8 mt-8">
+        <div class="container mx-auto text-center">
+          <!-- Social Icons -->
+          <div class="flex justify-center space-x-6 mb-4">
+            <a href="#" class="text-yellow-500 hover:text-yellow-700"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.284h-3.128v-3.622h3.128v-2.671c0-3.097 1.891-4.782 4.653-4.782 1.324 0 2.462.099 2.794.143v3.241l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.305h3.59l-.467 3.622h-3.123v9.284h6.128c.731 0 1.324-.593 1.324-1.324v-21.35c0-.732-.593-1.325-1.324-1.325z"
+                /></svg
+            ></a>
+            <a href="#" class="text-yellow-500 hover:text-yellow-700"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M24 4.557a9.94 9.94 0 01-2.828.775 4.92 4.92 0 002.165-2.723c-.951.564-2.005.975-3.127 1.195a4.908 4.908 0 00-8.361 4.468 13.913 13.913 0 01-10.103-5.13c-.945 1.623-.465 3.737 1.18 4.805a4.904 4.904 0 01-2.23-.617v.061c0 2.324 1.654 4.261 3.848 4.701a4.936 4.936 0 01-2.224.085c.625 1.953 2.443 3.376 4.597 3.415a9.87 9.87 0 01-7.289 2.032c2.179 1.395 4.768 2.21 7.557 2.21 9.054 0 14-7.496 14-13.986 0-.214-.004-.426-.014-.637a9.936 9.936 0 002.458-2.548z"
+                /></svg
+            ></a>
+            <a href="#" class="text-yellow-500 hover:text-yellow-700"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2.163c-5.522 0-10 4.478-10 10 0 4.991 3.657 9.128 8.438 9.878v-6.988h-2.54v-2.727h2.54v-2.084c0-2.508 1.492-3.89 3.773-3.89 1.094 0 2.24.194 2.24.194v2.459h-1.262c-1.244 0-1.632.773-1.632 1.562v1.859h2.773l-.443 2.727h-2.33v6.988c4.781-.75 8.438-4.888 8.438-9.878 0-5.522-4.478-10-10-10z"
+                /></svg
+            ></a>
+          </div>
+
+          <!-- Navigation Links -->
+          <div class="flex justify-center space-x-6 text-gray-700">
+            <a href="#home" class="hover:text-gray-900">Home</a>
+            <a href="#services" class="hover:text-gray-900">Services</a>
+            <a href="#team" class="hover:text-gray-900">Team</a>
+            <a href="#contact" class="hover:text-gray-900">Contact</a>
+          </div>
+
+          <!-- Branding -->
+          <h2 class="text-4xl font-bold mt-4">VIGNETO</h2>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
